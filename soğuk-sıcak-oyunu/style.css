@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+/* FORM KOD BAŞLANGIÇ */
+
+.container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container form .input-guess{
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+
+/* FORM KOD BİTİŞ */

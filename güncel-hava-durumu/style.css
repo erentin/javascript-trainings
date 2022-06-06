@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/316124.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px;
+    background-color: rgba(54, 54, 54, 0.801);
+    width: 40%;
+}
+.app .header h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.app .header #searchBar{
+    width: 80%;
+    border: 0;
+    outline: 0px;
+    background: transparent;
+    font-size: 30px;
+    color: #f2f2f2;
+    text-align: center;
+    border-bottom: 5px solid #B2526F;
+}
+
+.app .content{
+    margin: 30px;
+}
+
+.app .content .city,.temp{
+    margin: 30px;
+}
+
+.app .content .city{
+    font-size: 50px;
+}
+
+.app .content .temp{
+    font-size: 70px;
+}
+
+
